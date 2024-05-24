@@ -1,9 +1,9 @@
 # Learning
  Practicing learning programming concepts such as webdev. 
 
-**#1 Goal **- Working towards creating a website, and develop web related skills.
+#1 Goal -  Working towards creating a website, and develop web related skills.
 
-**#2 Goal **- Develop general programming skills as interest sees fit. Examples: creating a small game, music, a twitch bot, a program to troll people, hacking Elon Musk's bank account. 
+#2 Goal - Develop general programming skills as interest sees fit. Examples: creating a small game, music, a twitch bot, a program to troll people, hacking Elon Musk's bank account. 
 
 The most important thing is maintain interest, consistency, and working on something.
 
