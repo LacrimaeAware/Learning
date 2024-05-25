@@ -1,0 +1,20 @@
+[DATE] 05/24/2024
+
+[PRETEXT]
+
+I'm gonna try to keep things simple, gonna aim for a small task most days. 
+
+I made a repository, https://github.com/LacrimaeAware/Learning
+
+The repository is public FYI.
+
+[STEPS]
+
+1. Make github account
+
+2. Download Github Desktop
+
+3. Tell me your username or email address so I can invite you to the repository. 
+
+4. https://www.youtube.com/watch?v=iv8rSLsi1xo 
+Watch that video if you need help, it's very basic. We'll worry about finer details later.
