@@ -1,0 +1,62 @@
+[DATE] 05/26/2024
+[URL] https://docs.google.com/document/d/14GL_GHvbhv8h57WU6g-hvhMv3qazAAu6Bow15jS9hUQ/edit
+[CHATGPT] https://chatgpt.com/share/c2f2fec6-1f3d-4c07-b964-f0762a0ea988
+[PRETEXT]
+Today, let's expand our basic HTML page. Here is an optional resource for understanding HTML tags and attributes: W3Schools HTML Basics. At the bottom, I will include a succinct explanation of HTML structure and placement.
+[STEPS]
+Get a Code Editor:
+If you don’t have one, download a beginner-friendly code editor. Recommended:
+Visual Studio Code - Versatile, with great support.
+Sublime Text - Fast and efficient.
+Atom - Good for collaboration.
+Brackets - Features live preview for CSS.
+Notepad++ - Simple, effective for Windows.
+Open HTML File with Code Editor:
+Open the index.html file you created.
+Add an Image and Style It:
+Use any web URL or a local image file. For a web URL:
+html
+Copy code
+<img src="https://placekitten.com/408/287" alt="Kitten" style="width:200px;height:150px;">
+
+
+For a local image:
+html
+Copy code
+<img src="myimage.jpg" alt="My Image" style="width:200px;height:150px;">
+
+
+Add a Link and Style It:
+Create a hyperlink to any website and style it:
+html
+Copy code
+<a href="https://www.example.com" style="color: red; font-size: 20px;">Visit Example!</a>
+
+
+Add a Simple List and Style It:
+Make a bullet point list and add CSS styles inline:
+html
+Copy code
+<ul style="list-style-type: none;">
+  <li style="color: blue;">Item One</li>
+  <li style="color: green;">Item Two</li>
+  <li style="color: purple;">Item Three</li>
+</ul>
+
+
+Save and Preview Your Page:
+Save changes and view your HTML file in a browser to see how the styles change the appearance.
+Commit and Push Your Changes:
+Use GitHub Desktop to commit with the message “Enhanced HTML with images, links, lists, and CSS styles” and push to the repository.
+HTML Structure and Placement
+HTML documents consist of a <head> for metadata like titles and CSS links, and a <body> for all content visible on the webpage.
+Order in the <body> determines the visual order on the page. Elements appear as listed from top to bottom.
+Nesting elements like <div> or <ul> groups content or organizes items into lists.
+Optimizing loading: Place <script> tags at the end of the <body> to prevent blocking the page rendering.
+Mini FAQ on HTML Placement
+Does element order affect the webpage?
+Yes, elements render in the order they appear in the HTML.
+Where should images and links be placed?
+Place <img> and <a> tags within the <body> where you want them to display.
+What about <script> tags in the <head>?
+Placing <script> tags at the end of the <body> improves loading times by preventing render blocking.
