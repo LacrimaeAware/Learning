@@ -4,7 +4,8 @@
 [PRETEXT]
 
 Remember to ask AI for help if you need, or me.
-You are free to name things, and organize files within your folder however you’d like.  
+You are free to name things, and organize files within your folder however you’d like.
+Some extra command line help at the bottom. 
 
 [STEPS]
 
@@ -36,3 +37,11 @@ Ex: C:\Users\EcceNihilum\Desktop\Learning Prog with J & S\Learning\COLLABORATORS
 6. Click Commit to main. 
 7. After committing, click the Push origin button.
 
+
+
+
+
+
+FOR COMMAND LINE:
+
+https://chatgpt.com/share/38a4e089-c76a-4bf3-b1a3-a3ac1a1de466
