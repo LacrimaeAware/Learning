@@ -1,0 +1,37 @@
+[DATE] 05/25/2024
+
+[PRETEXT]
+
+Remember to ask AI for help if you need, or me.
+You are free to name things, and organize files within your folder however you’d like.  
+
+[STEPS]
+
+1. Clone the repository
+	File -> Clone repository
+	Put in URL of this repository:  https://github.com/LacrimaeAware/Learning
+
+	If you wanted to do it via command line git, ask the AI but for now:
+		Git clone https://github.com/LacrimaeAware/Learning.git
+		Navigate into the directory with cd learning
+
+2. Create a folder named after you in some way (an identifier) within the COLLABORATOR folder. 
+Ex: C:\Users\EcceNihilum\Desktop\Learning Prog with J & S\Learning\COLLABORATORS\Fernardo\
+
+3. Create a file within your folder named index.html
+4. Open the file and add some basic HTML content.
+	EX:
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<Title>My First Page</title>
+	</head>
+	<body>
+		<h1>Welcome to My Web Page</h1>
+		<p>This is a simple HTML document.</p>
+	</body>
+	</html>
+5. On GitHub Desktop it should automatically detect new changes. Under changes enter a commit message in the text box, “Added personal folder and HTML file”. 
+6. Click Commit to main. 
+7. After committing, click the Push origin button.
+
