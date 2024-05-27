@@ -1,0 +1,15 @@
+What does `<!DOCTYPE html>` signify in an HTML document? | It tells the browser to render the page in HTML5.
+What is the purpose of the `<html>` tag? | It encloses all the content of an HTML document.
+What is contained within the `<head>` tag? | It contains metadata like the document's title and links to stylesheets.
+How do you close HTML tags? | Most tags are closed with a slash and the tag name, like `</tagname>`.
+What does the `<title>` tag define? | It defines the title of the web page, visible in the browser's title bar.
+Are HTML tags arbitrary variable names? | No, HTML tags are predefined and each has a specific purpose in the document.
+What is the function of the `<body>` tag? | It contains all the contents of an HTML document that are visible on the web page.
+What does the `<h1>` tag represent? | It represents the highest level heading in the document, often used for the main title.
+What is the purpose of the `<p>` tag? | It defines a paragraph of text.
+What does the `<img>` tag do, and what are its key attributes? | It embeds an image in the webpage, key attributes include 'src' (source of the image) and 'alt' (alternative text).
+What is the purpose of the `<a>` tag and what is a crucial attribute? | It defines a hyperlink, with 'href' as a crucial attribute that specifies the link's destination.
+What does the `<ul>` tag represent and how is it typically styled? | It defines an unordered list, often styled with bullets or other markers.
+Describe the function of the `<div>` tag. | It acts as a container to group other elements, aiding in layout and styling.
+What do `<h2>` and `<h3>` tags indicate? | They represent lower levels of headings, used to organize content hierarchically under the main title.
+Why use `<h1>`, `<h2>`, `<h3>` tags instead of `<p>` for headings? | Heading tags indicate the hierarchy and importance of sections, improving document structure and SEO, while `<p>` is used for regular text without hierarchy.
