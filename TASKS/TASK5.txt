@@ -1,0 +1,74 @@
+
+[DATE] 05/30/2024
+[URL] https://docs.google.com/document/d/1swXYudESsyLBjYlxpe30sjnrE84vLJbKjEk-z4e_svs/
+[CHATGPT] https://chatgpt.com/share/541074da-d8a7-4819-bbb5-c552db4a05c3
+Task: Add a Table and a Contact Form to Your HTML Page
+Steps:
+Open Your HTML File:
+Open the index.html file in your code editor.
+Add a Table for Favorite Books:
+Insert this HTML snippet where you want the table in your document:
+html
+Copy code
+<h2>My Favorite Books</h2>
+<table border="1">
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>1984</td>
+    <td>George Orwell</td>
+    <td>1949</td>
+  </tr>
+  <tr>
+    <td>To Kill a Mockingbird</td>
+    <td>Harper Lee</td>
+    <td>1960</td>
+  </tr>
+  <tr>
+    <td>The Great Gatsby</td>
+    <td>F. Scott Fitzgerald</td>
+    <td>1925</td>
+  </tr>
+</table>
+
+
+Element Explanations:
+<table>: Defines a table.
+<tr>: Represents a table row.
+<th>: Specifies a table header, which is bold and centered by default.
+<td>: Defines a table cell.
+Add a Contact Form:
+Place this HTML snippet where you want the form on your page:
+html
+Copy code
+<h2>Contact Me</h2>
+<form>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name"><br><br>
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="message">Message:</label><br>
+  <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+  <input type="submit" value="Submit">
+</form>
+
+
+Element Explanations:
+<form>: Defines a form for user input.
+<label>: Provides a label for an input element; improves accessibility.
+<input>: Creates an input field. Types include:
+type="text": For single-line text.
+type="email": For email addresses, includes built-in validation.
+type="submit": Button to submit the form.
+<textarea>: Allows for multi-line text input, suitable for longer messages.
+Save and Preview Your Page:
+Save the changes in your code editor and open your index.html in a web browser to see the updates.
+Commit and Push Your Changes:
+In GitHub Desktop, add a commit message like "Added a table and a contact form to HTML" and push the changes to the repository.
+Helpful Tips:
+Table Borders: Using border="1" helps visualize the structure of the table during development.
+Label Association: Always use the for attribute in <label> to associate the label with its corresponding form input. This improves form accessibility and functionality.
+
