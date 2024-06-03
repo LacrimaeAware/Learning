@@ -1,0 +1,50 @@
+
+[DATE] 06/01/2024
+[URL] https://docs.google.com/document/d/1_xF9Mdpg3AGZYZlbF3u6kj7KThHsolqPDl-Nbma8gE8/edit
+[CHATGPT] https://chatgpt.com/share/b75133cb-e713-4aa3-b1dc-c86875aa66d7
+
+Task: Add Audio and Video Players to Your HTML Page
+Steps:
+Open Your HTML File:
+Open the index.html file in your code editor.
+Add a Video Player:
+Instructions: Insert this HTML snippet where you want the video player on your document:
+html
+Copy code
+<h2>My Favorite Video</h2>
+<video width="320" height="240" controls>
+    <source src="path_to_your_video_file.mp4" type="video/mp4">
+    <source src="path_to_your_video_file.ogg" type="video/ogg">
+    Your browser does not support the video tag.
+</video>
+<p>This video is significant to me because...</p>
+
+
+Element Explanations:
+<video>: Defines a video player.
+<source>: Specifies multiple media resources for the <video>, ensuring compatibility across different browsers.
+Add an Audio Player:
+Instructions: Place this HTML snippet where you want the audio player on your page:
+html
+Copy code
+<h2>My Favorite Track</h2>
+<audio controls>
+    <source src="path_to_your_audio_file.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio>
+<p>This track by [Artist Name] inspires me because...</p>
+
+
+Element Explanations:
+<audio>: Defines a sound content.
+<source>: Specifies audio files for the player, supporting different audio formats to enhance browser compatibility.
+Save and Preview Your Page:
+Save the changes in your code editor and open your index.html in a web browser to see the updates.
+Commit and Push Your Changes:
+In GitHub Desktop, add a commit message like "Added audio and video players to my HTML page" and push the changes to the repository.
+Helpful Tips:
+File Hosting: If you don’t have local files, consider uploading your media to a web server or using direct links. 
+Testing Media: Ensure that both video and audio play correctly in your browser and that file paths are accurate.
+
+
+
