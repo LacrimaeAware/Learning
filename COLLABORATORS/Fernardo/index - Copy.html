@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        header, main {
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #026476;
+        }
+        h2 {
+            color: #014451;
+        }
+        a {
+            color: #014451;
+            text-decoration: none; /* Removes underline */
+        }
+        a:hover {
+            text-decoration: underline; /* Adds underline on hover */
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin: 20px auto; /* Centering the form */
+            width: 50%; /* Sets the width of the form to 50% of its parent */
+        }
+        video, audio {
+            display: block;
+            margin: 0 auto; /* Centers the media elements */
+            max-width: 100%; /* Ensures the media does not overflow its container */
+        }
+        table {
+            margin: 20px auto; /* Centers the table */
+            border-collapse: collapse; /* Ensures borders are neat */
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Main Heading: Welcome to My Web Page</h1>
+    </header>
+    <main>
+        <h2>Subheading: About Me</h2>
+        <p>This is a paragraph about me. Here, I will tell you a little bit about my interests and what I do.</p>
+        <div>
+            <h2>About This Page</h2>
+            <p>This section describes the purpose of the page and what you can expect to find.</p>
+        </div>
+        <div>
+            <p>Follow me on <a href="https://www.twitter.com/yourusername" target="_blank">Twitter</a>.</p>
+        </div>
+        <div>
+            <img src="https://placekitten.com/408/287" alt="Kitten" style="width:200px;height:150px;">
+            <img src="dllhost_OvAAWPseXt.png" alt="Local_Img" style="width:600px;height:450px;">
+        </div>
+        <div>
+            <a href="https://www.example.com" style="color: red; font-size: 20px;">Visit Example!</a>
+        </div>
+        <ul style="list-style-type: none;">
+            <li style="color: blue;">Item One</li>
+            <li style="color: green;">Item Two</li>
+            <li style="color: purple;">Item Three</li>
+        </ul>
+        <h2>My Favorite Books</h2>
+        <table>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>1984</td>
+            <td>George Orwell</td>
+            <td>1949</td>
+          </tr>
+          <tr>
+            <td>To Kill a Mockingbird</td>
+            <td>Harper Lee</td>
+            <td>1960</td>
+          </tr>
+          <tr>
+            <td>The Great Gatsby</td>
+            <td>F. Scott Fitzgerald</td>
+            <td>1925</td>
+          </tr>
+        </table>
+        <h2>My Favorite Video</h2>
+        <video width="320" height="240" controls>
+            <source src="AT-cm_h10tk98LnYTHB6x7Pk6v1g.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>This video is significant to me because...</p>
+        <h2>My Favorite Track</h2>
+        <audio controls>
+            <source src="https://media.vocaroo.com/mp3/czEUCZ6NSSC" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>This track inspires me because...</p>
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+          <input type="submit" value="Submit">
+        </form>
+    </main>
+</body>
+</html>
