@@ -1,5 +1,6 @@
 *.env
 data/
+node_modules/
 
 # python stuff
 __pycache__/
