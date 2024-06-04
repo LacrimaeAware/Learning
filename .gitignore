@@ -1,4 +1,11 @@
 *.env
 data/
-node_modules/
-/node_modules/
+
+# python stuff
+__pycache__/
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
