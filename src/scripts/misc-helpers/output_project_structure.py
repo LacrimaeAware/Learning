@@ -4,7 +4,7 @@ def list_files(startpath):
     # Walk through each directory in the provided start path
     for root, dirs, files in os.walk(startpath):
         # Exclude '.git' and '.idea' directory to avoid listing version control files
-        dirs[:] = [d for d in dirs if d != '.git' and d != '.idea']
+        dirs[:] = [d for d in dirs if d != '.git' and d != '.idea' and d!='data']
 
         # Calculate how deep the directory is relative to startpath
         level = root.replace(startpath, '').count(os.sep)
