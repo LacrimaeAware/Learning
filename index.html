@@ -1,0 +1,141 @@
+<!DOCTYPE html> <!-- The declaration that defines this document as HTML5 -->
+<html lang="en"> <!-- The root element of an HTML page -->
+<head> <!-- Contains meta-information about the document -->
+    <title>My First Page</title> <!-- Defines the title of the document -->
+    <style> /* Embedded CSS styles for the page */
+        body {
+            font-family: Arial, sans-serif; /* Sets the font family for the body */
+            margin: 0; /* Removes margin around the body */
+            padding: 0; /* Removes padding inside the body */
+            background-color: #f0f2f5; /* Sets a light grey background color */
+            color: #333; /* Sets the text color to dark grey */
+            line-height: 1.6; /* Increases the line height for better readability */
+        }
+        header, main {
+            padding: 20px; /* Adds padding inside header and main for spacing */
+            text-align: center; /* Centers text inside header and main */
+        }
+        h1 {
+            color: #026476; /* Sets the color of h1 elements to teal */
+        }
+        h2 {
+            color: #014451; /* Sets the color of h2 elements to a darker teal */
+        }
+        a {
+            color: #014451; /* Sets the color of links to dark teal */
+            text-decoration: none; /* Removes underline from links */
+        }
+        a:hover {
+            text-decoration: underline; /* Adds underline to links on hover for better interactivity */
+        }
+        form {
+            background: #fff; /* Sets form background color to white */
+            padding: 20px; /* Adds padding inside the form */
+            border: 1px solid #ccc; /* Adds a grey border around the form */
+            margin: 20px auto; /* Adds vertical margin and horizontally centers the form */
+            width: 50%; /* Sets the width of the form to 50% of its parent container */
+        }
+        video, audio {
+            display: block; /* Displays video and audio as block elements */
+            margin: 0 auto; /* Centers video and audio horizontally */
+            max-width: 100%; /* Ensures video and audio do not exceed the width of their container */
+        }
+        table {
+            margin: 20px auto; /* Centers the table horizontally and adds vertical margin */
+            border-collapse: collapse; /* Collapses borders between table cells */
+        }
+        th, td {
+            border: 1px solid #ccc; /* Adds a border to table header and data cells */
+            padding: 10px; /* Adds padding inside table cells for spacing */
+            text-align: left; /* Aligns text to the left in table cells */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Main Heading: Welcome to My Web Page</h1> <!-- Main heading of the page -->
+    </header>
+    <main>
+        <h2>Subheading: About Me</h2> <!-- Subheading for the section -->
+        <p>This is a paragraph about me. Here, I will tell you a little bit about my interests and what I do.</p> <!-- Paragraph describing the page author -->
+        <div>
+            <h2>About This Page</h2> <!-- Subheading for the section about the page -->
+            <p>This section describes the purpose of the page and what you can expect to find.</p> <!-- Paragraph providing more information about the page -->
+        </div>
+        <div>
+            <p>Follow me on <a href="https://www.twitter.com/yourusername" target="_blank">Twitter</a>.</p> <!-- Link to Twitter profile -->
+        </div>
+        <div>
+            <img src="https://placekitten.com/408/287" alt="Kitten" style="width:200px;height:150px;"> <!-- Image of a kitten -->
+            <img src="dllhost_OvAAWPseXt.png" alt="Local_Img" style="width:600px;height:450px;"> <!-- Local image with specified dimensions -->
+        </div>
+        <div>
+            <a href="https://www.example.com" style="color: red; font-size: 20px;">Visit Example!</a> <!-- Example link with inline styling -->
+        </div>
+        <ul style="list-style-type: none;"> <!-- Unordered list with no bullet points -->
+            <li style="color: blue;">Item One</li> <!-- List item with blue color -->
+            <li style="color: green;">Item Two</li> <!-- List item with green color -->
+            <li style="color: purple;">Item Three</li> <!-- List item with purple color -->
+        </ul>
+        <h2>My Favorite Books</h2> <!-- Subheading for the favorite books section -->
+        <table> <!-- Table displaying favorite books -->
+          <tr> <!-- Table row -->
+            <th>Title</th> <!-- Table header -->
+            <th>Author</th> <!-- Table header -->
+            <th>Year</th> <!-- Table header -->
+          </tr>
+          <tr> <!-- Table row -->
+            <td>1984</td> <!-- Table data -->
+            <td>George Orwell</td> <!-- Table data -->
+            <td>1949</td> <!-- Table data -->
+          </tr>
+          <tr> <!-- Table row -->
+            <td>To Kill a Mockingbird</td> <!-- Table data -->
+            <td>Harper Lee</td> <!-- Table data -->
+            <td>1960</td> <!-- Table data -->
+          </tr>
+          <tr> <!-- Table row -->
+            <td>The Great Gatsby</td> <!-- Table data -->
+            <td>F. Scott Fitzgerald</td> <!-- Table data -->
+            <td>1925</td> <!-- Table data -->
+          </tr>
+        </table>
+        <h2>My Favorite Video</h2> <!-- Subheading for the favorite video section -->
+        <video width="320" height="240" controls> <!-- Video player -->
+            <source src="AT-cm_h10tk98LnYTHB6x7Pk6v1g.mp4" type="video/mp4"> <!-- Video source file -->
+            Your browser does not support the video tag. <!-- Fallback text for unsupported browsers -->
+        </video>
+        <p>This video is significant to me because...</p> <!-- Description of the video significance -->
+        <h2>My Favorite Track</h2> <!-- Subheading for the favorite track section -->
+        <audio controls> <!-- Audio player -->
+            <source src="https://media.vocaroo.com/mp3/czEUCZ6NSSC" type="audio/mpeg"> <!-- Audio source file -->
+            Your browser does not support the audio element. <!-- Fallback text for unsupported browsers -->
+        </audio>
+        <p>This track inspires me because...</p> <!-- Description of the track's inspiration -->
+        <h2>Contact Me</h2> <!-- Subheading for the contact form section -->
+        <form> <!-- Form for user input -->
+          <label for="name">Name:</label><br> <!-- Label for the name input field -->
+          <input type="text" id="name" name="name"><br><br> <!-- Text input for the name -->
+          <label for="email">Email:</label><br> <!-- Label for the email input field -->
+          <input type="email" id="email" name="email"><br><br> <!-- Email input field -->
+          <label for="message">Message:</label><br> <!-- Label for the message textarea -->
+          <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br> <!-- Textarea for longer user input -->
+          <input type="submit" value="Submit"> <!-- Submit button for the form -->
+        </form>
+		<h1>Player Scores</h1>
+		<ul id="players"></ul>
+		<script>
+		fetch('snapshot.html')
+			.then(response => response.text())
+			.then(html => {
+				const container = document.getElementById('players');
+				container.innerHTML = html;
+			})
+			.catch(error => {
+				console.error('Failed to load player scores:', error);
+				document.getElementById('players').innerHTML = 'Failed to load scores.';
+			});
+		</script>
+    </main>
+</body>
+</html>
