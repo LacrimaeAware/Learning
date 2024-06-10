@@ -113,15 +113,28 @@
         </audio>
         <p>This track inspires me because...</p> <!-- Description of the track's inspiration -->
         <h2>Contact Me</h2> <!-- Subheading for the contact form section -->
-        <form action="/submit-form" method="POST"> <!-- Form for user input -->
-          <label for="name">Name:</label><br> <!-- Label for the name input field -->
-          <input type="text" id="name" name="name"><br><br> <!-- Text input for the name -->
-          <label for="email">Email:</label><br> <!-- Label for the email input field -->
-          <input type="email" id="email" name="email"><br><br> <!-- Email input field -->
-          <label for="message">Message:</label><br> <!-- Label for the message textarea -->
-          <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br> <!-- Textarea for longer user input -->
-          <input type="submit" value="Submit"> <!-- Submit button for the form -->
-        </form>
+		<form id="contactForm" onsubmit="submitContactForm(event)">
+			<label for="name">Name:</label><br>
+			<input type="text" id="name" name="name"><br><br>
+			<label for="email">Email:</label><br>
+			<input type="email" id="email" name="email"><br><br>
+			<label for="message">Message:</label><br>
+			<textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+			<input type="submit" value="Submit">
+		</form>
+		<script>
+		function submitContactForm(event) {
+			event.preventDefault(); // This stops the page from reloading
+			const formData = new FormData(document.getElementById('contactForm'));
+			fetch('/submit-form', {
+				method: 'POST',
+				body: formData
+			})
+			.then(response => response.text())
+			.then(data => alert('Form submitted successfully!'))
+			.catch(error => console.error('Error:', error));
+		}
+		</script>
 		<h1>Player Scores</h1>
 		<ul id="players"></ul>
 		<script>

@@ -1,8 +1,9 @@
 const fs = require('fs');
 const express = require('express');
 const { Pool } = require('pg');
-const bodyParser = require('body-parser'); // Import body-parser
-
+const bodyParser = require('body-parser');
+const multer = require('multer');
+const upload = multer();
 const app = express();
 const port = 3000;
 
@@ -43,7 +44,7 @@ const generateSnapshot = async () => {
 };
 
 // Handle POST requests from the contact form
-app.post('/submit-form', (req, res) => {
+app.post('/submit-form', upload.none(), (req, res) => {
   const { name, email, message } = req.body;
   const insertQuery = 'INSERT INTO contacts (name, email, message) VALUES ($1, $2, $3)';
   pool.query(insertQuery, [name, email, message], (err, results) => {
@@ -60,11 +61,6 @@ app.post('/submit-form', (req, res) => {
 generateSnapshot();
 setInterval(generateSnapshot, 120000); // Every 2 minutes (120000 milliseconds)
 
-app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
-});
-
-
 app.get('/get-contacts', async (req, res) => {
     try {
         const result = await pool.query('SELECT * FROM contacts');
@@ -75,3 +71,6 @@ app.get('/get-contacts', async (req, res) => {
     }
 });
 
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});
