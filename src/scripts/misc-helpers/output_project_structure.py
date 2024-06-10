@@ -1,10 +1,13 @@
 import os
 
 def list_files(startpath):
+    # List of folders to ignore while listing files
+    folders_to_ignore = ['.git', '.idea', 'data', 'node_modules']
+    print('Ignoring folders:', folders_to_ignore)
     # Walk through each directory in the provided start path
     for root, dirs, files in os.walk(startpath):
         # Exclude '.git' and '.idea' directory to avoid listing version control files
-        dirs[:] = [d for d in dirs if d != '.git' and d != '.idea' and d!='data']
+        dirs[:] = [d for d in dirs if d not in folders_to_ignore]
 
         # Calculate how deep the directory is relative to startpath
         level = root.replace(startpath, '').count(os.sep)
